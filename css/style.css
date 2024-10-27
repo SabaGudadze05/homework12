@@ -103,6 +103,7 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  color: rgba(158, 141, 158, 0.71);
 }
 .submit_button {
   width: 100%;
