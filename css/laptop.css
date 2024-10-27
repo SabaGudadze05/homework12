@@ -1,0 +1,20 @@
+/* 1300-770 */
+@media (max-width: 1001px) {
+  /* container */
+  .container {
+    padding: 64px 24px;
+  }
+}
+@media (max-width: 801px) {
+  /* container */
+  .container {
+    padding: 32px 24px;
+  }
+  /* mainSection */
+
+  .main_section {
+    flex-direction: column;
+    padding: 40px 16px;
+    gap: 64px;
+  }
+}

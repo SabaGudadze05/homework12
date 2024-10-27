@@ -1,0 +1,58 @@
+/* widht 480-320px */
+@media (max-width: 481px) {
+  /* container */
+  .container {
+    padding: 32px 20px;
+  }
+
+  /* mainSection */
+  .main_section {
+    padding: 16px;
+  }
+  /* formSection */
+  .form_section_header {
+    margin-bottom: 40px;
+  }
+  .form_one {
+    gap: 36px;
+  }
+  .name_email_section {
+    flex-direction: column;
+    gap: 36px;
+  }
+  /* sectoon two */
+  .second_section_buttons_section {
+    gap: 42px;
+  }
+  .map_section {
+    height: 200px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 321px) {
+  /* container */
+  .container {
+    padding: 16px 8px;
+  }
+  /* mainSection */
+  .main_section {
+    padding: 16px 8px;
+    gap: 48px;
+  }
+  /* formSection */
+  .form_section_header {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .form_one {
+    gap: 24px;
+  }
+  .name_email_section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .map_section{
+    margin-top: 24px;
+  }
+}
